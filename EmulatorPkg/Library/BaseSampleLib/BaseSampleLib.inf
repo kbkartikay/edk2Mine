@@ -1,0 +1,27 @@
+## @file
+
+
+[Defines]
+  INF_VERSION                    = 0x00010005
+  BASE_NAME                      = BaseSampleLib
+  FILE_GUID                      = 82438435-C89A-4567-9465-F7980C8AD5F9
+  MODULE_TYPE                    = BASE
+  VERSION_STRING                 = 1.0
+  LIBRARY_CLASS                  = BaseSampleLib
+
+#
+#  VALID_ARCHITECTURES           = IA32 X64 EBC
+#
+
+[Sources]
+    BaseSampleLib.c
+
+
+[Packages]
+    MdePkg/MdePkg.dec
+    EmulatorPkg/EmulatorPkg.dec
+
+[LibraryClasses]
+    DebugLib
+  
+
