@@ -369,6 +369,7 @@
 !endif
   }
   EmulatorPkg/AdditionPeim/AdditionPeim.inf
+  EmulatorPkg/UseAdditionPeim/UseAdditionPeim.inf
   MdeModulePkg/Universal/EbcDxe/EbcDxe.inf
   MdeModulePkg/Universal/MemoryTest/NullMemoryTestDxe/NullMemoryTestDxe.inf
   EmulatorPkg/EmuThunkDxe/EmuThunk.inf
