@@ -35,8 +35,9 @@ CustomHobDxeEntryPoint(
   HobData = GET_GUID_HOB_DATA (Hob);
 
   // Display the data from the HOB
-  Print(L"Name: %s, City: %s, Company: %s\n",
-        HobData->Name, HobData->City, HobData->Company);
+  DEBUG((DEBUG_INFO, "Name: %s, City: %s, Company: %s\n",
+        HobData->Name, HobData->City, HobData->Company));
+  
 
   return Status;
 }
