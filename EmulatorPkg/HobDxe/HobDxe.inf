@@ -1,0 +1,32 @@
+[Defines]
+  INF_VERSION = 0x00010005
+  BASE_NAME = HobDxe
+  FILE_GUID = 415037AE-4F43-4C7D-A9EC-FFA76E52BDED
+  MODULE_TYPE = DXE_DRIVER
+  VERSION_STRING = 1.0
+  ENTRY_POINT = CustomHobDxeEntryPoint
+  
+
+[Sources]
+  HobDxe.c
+
+[Packages]
+  MdePkg/MdePkg.dec
+  EmulatorPkg/EmulatorPkg.dec
+
+
+[LibraryClasses]
+  UefiLib
+  DebugLib
+  HobLib
+  UefiBootServicesTableLib
+  MemoryAllocationLib
+  UefiDriverEntryPoint
+  
+
+[Guids]
+  gCustomHobGuid
+
+
+[Depex]
+    TRUE
