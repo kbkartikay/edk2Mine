@@ -133,7 +133,7 @@ INF  EmulatorPkg/FlashMapPei/FlashMapPei.inf
 INF  EmulatorPkg/AdditionPeim/AdditionPeim.inf
 INF  EmulatorPkg/UseAdditionPeim/UseAdditionPeim.inf
 INF  EmulatorPkg/HobPeim/HobPeim.inf
-INF  EmulatorPkg/HobDxe/HobDxe.inf
+
 INF  EmulatorPkg/ThunkPpiToProtocolPei/ThunkPpiToProtocolPei.inf
 INF  MdeModulePkg/Universal/FaultTolerantWritePei/FaultTolerantWritePei.inf
 INF  MdeModulePkg/Universal/Variable/Pei/VariablePei.inf
@@ -149,6 +149,7 @@ INF  MdeModulePkg/Universal/StatusCodeHandler/RuntimeDxe/StatusCodeHandlerRuntim
 INF  MdeModulePkg/Universal/Metronome/Metronome.inf
 INF  EmulatorPkg/RealTimeClockRuntimeDxe/RealTimeClock.inf
 INF  EmulatorPkg/ResetRuntimeDxe/Reset.inf
+INF  EmulatorPkg/HobDxe/HobDxe.inf
 INF  MdeModulePkg/Core/RuntimeDxe/RuntimeDxe.inf
 INF  EmulatorPkg/FvbServicesRuntimeDxe/FvbServicesRuntimeDxe.inf
 INF  MdeModulePkg/Universal/SecurityStubDxe/SecurityStubDxe.inf
