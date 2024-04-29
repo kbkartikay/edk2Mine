@@ -33,8 +33,7 @@ CustomHobDxeEntryPoint(
     return EFI_NOT_FOUND;
   }
   HobData = GET_GUID_HOB_DATA (Hob);
-
-  DEBUG((DEBUG_INFO,"Succesfully fetched HOB Data\n"));
+  DEBUG((DEBUG_INFO,"Succesfully found HOB\n"));
   // Display the data from the HOB
   DEBUG((DEBUG_INFO, "Name: %a, City: %a, Company: %a\n",
         HobData->Name, HobData->City, HobData->Company));

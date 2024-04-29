@@ -1,0 +1,1119 @@
+
+EDK II WIN Host Emulation Environment from http://www.tianocore.org/edk2/
+  BootMode 0x00
+  FD loaded from ../FV/FV_RECOVERY.fd contains SEC Core
+  OS Emulator clearing temp RAM and physical RAM (to be discovered later)......
+  OS Emulator passing in 128 KB of temp RAM at 0x0e400000 to SEC
+LoadLibraryEx (
+  c:\users\kartikay\desktop\programming\dell\chainkulikimainkuli\edk2\Build\EmulatorIA32\DEBUG_VS2019\IA32\EmulatorPkg\Sec\Sec\DEBUG\EmuSec.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES)
+SEC Has Started
+LoadLibraryEx (
+  c:\users\kartikay\desktop\programming\dell\chainkulikimainkuli\edk2\Build\EmulatorIA32\DEBUG_VS2019\IA32\MdeModulePkg\Core\Pei\PeiMain\DEBUG\PeiCore.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES)
+LoadLibraryEx (
+  c:\users\kartikay\desktop\programming\dell\chainkulikimainkuli\edk2\Build\EmulatorIA32\DEBUG_VS2019\IA32\MdeModulePkg\Universal\ReportStatusCodeRouter\Pei\ReportStatusCodeRouterPei\DEBUG\ReportStatusCodeRouterPei.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES)
+LoadLibraryEx (
+  c:\users\kartikay\desktop\programming\dell\chainkulikimainkuli\edk2\Build\EmulatorIA32\DEBUG_VS2019\IA32\MdeModulePkg\Universal\StatusCodeHandler\Pei\StatusCodeHandlerPei\DEBUG\StatusCodeHandlerPei.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES)
+PROGRESS CODE: V03020003 I0
+Loading PEIM 9B3ADA4F-AE56-4C24-8DEA-F03B7558AE50
+LoadLibraryEx (
+  c:\users\kartikay\desktop\programming\dell\chainkulikimainkuli\edk2\Build\EmulatorIA32\DEBUG_VS2019\IA32\MdeModulePkg\Universal\PCD\Pei\Pcd\DEBUG\PcdPeim.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES)
+Loading PEIM at 0x0000E449000 EntryPoint=0x00075271000 PcdPeim.efi
+PROGRESS CODE: V03020002 I0
+Install PPI: 06E81C58-4AD7-44BC-8390-F10265F72480
+Install PPI: 01F34D25-4DE2-23AD-3FF3-36353FF323F1
+Install PPI: 4D8B155B-C059-4C8F-8926-06FD4331DB8A
+Install PPI: A60C6B59-E459-425D-9C69-0BCC9CB27D81
+Register PPI Notify: 605EA650-C65C-42E1-BA80-91A52AB618C6
+PROGRESS CODE: V03020003 I0
+Loading PEIM 64196C76-58E3-0B4D-9484-B54F7C4349CA
+LoadLibraryEx (
+  c:\users\kartikay\desktop\programming\dell\chainkulikimainkuli\edk2\Build\EmulatorIA32\DEBUG_VS2019\IA32\EmulatorPkg\BootModePei\BootModePei\DEBUG\BootModePei.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES)
+Loading PEIM at 0x0000E46C000 EntryPoint=0x00075261000 BootModePei.efi
+PROGRESS CODE: V03020002 I0
+Emu Boot Mode PEIM Loaded
+Install PPI: 7408D748-FC8C-4EE6-9288-C4BEC092A410
+PROGRESS CODE: V03020003 I0
+Loading PEIM 2D6F6BCC-9681-8E42-8579-B57DCD0060F0
+LoadLibraryEx (
+  c:\users\kartikay\desktop\programming\dell\chainkulikimainkuli\edk2\Build\EmulatorIA32\DEBUG_VS2019\IA32\EmulatorPkg\AutoScanPei\AutoScanPei\DEBUG\AutoScanPei.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES)
+Loading PEIM at 0x0000E475000 EntryPoint=0x00074691000 AutoScanPei.efi
+PROGRESS CODE: V03020002 I0
+Emu Autoscan PEIM Loaded
+PeiInstallPeiMemory MemoryBegin 0x6400000, MemoryLength 0x4000000
+PROGRESS CODE: V03020003 I0
+Temp Stack : BaseAddress=0xE400000 Length=0x10000
+Temp Heap  : BaseAddress=0xE410000 Length=0x10000
+Total temporary memory:    131072 bytes.
+  temporary memory stack ever used:       8192 bytes.
+  temporary memory heap used for HobList: 2456 bytes.
+  temporary memory heap occupied by memory pages: 0 bytes.
+Old Stack size 65536, New stack size 131072
+Stack Hob: BaseAddress=0x6400000 Length=0x20000
+Heap Offset = 0x7FF0000 Stack Offset = 0x7FF0000
+Loading PEIM 52C05B14-0B98-496C-BC3B-04B50211D680
+WARNING: DLL already loaded.  No source level debug c:\users\kartikay\desktop\programming\dell\chainkulikimainkuli\edk2\Build\EmulatorIA32\DEBUG_VS2019\IA32\MdeModulePkg\Core\Pei\PeiMain\DEBUG\PeiCore.DLL.
+Loading PEIM at 0x0000A3E5000 EntryPoint=0x0000A3E6040 PeiCore.efi
+Reinstall PPI: 8C8CE578-8A3D-4F1C-9935-896185C32DD3
+Reinstall PPI: 5473C07A-3DCB-4DCA-BD6F-1E9689E7349A
+Reinstall PPI: B9E0ABFE-5979-4914-977F-6DEE78C278A6
+Install PPI: F894643D-C449-42D1-8EA8-85BDD8C65BDE
+Loading PEIM 9B3ADA4F-AE56-4C24-8DEA-F03B7558AE50
+WARNING: DLL already loaded.  No source level debug c:\users\kartikay\desktop\programming\dell\chainkulikimainkuli\edk2\Build\EmulatorIA32\DEBUG_VS2019\IA32\MdeModulePkg\Universal\PCD\Pei\Pcd\DEBUG\PcdPeim.DLL.
+Loading PEIM at 0x0000A3D9000 EntryPoint=0x0000A3DA000 PcdPeim.efi
+Reinstall PPI: 06E81C58-4AD7-44BC-8390-F10265F72480
+Reinstall PPI: 4D8B155B-C059-4C8F-8926-06FD4331DB8A
+Reinstall PPI: 01F34D25-4DE2-23AD-3FF3-36353FF323F1
+Reinstall PPI: A60C6B59-E459-425D-9C69-0BCC9CB27D81
+Loading PEIM 6DB075DE-449E-2644-96D0-CC5A1B4C3B2A
+LoadLibraryEx (
+  c:\users\kartikay\desktop\programming\dell\chainkulikimainkuli\edk2\Build\EmulatorIA32\DEBUG_VS2019\IA32\EmulatorPkg\FirmwareVolumePei\FirmwareVolumePei\DEBUG\FirmwareVolumePei.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES)
+Loading PEIM at 0x0000A3D2000 EntryPoint=0x00074681000 FirmwareVolumePei.efi
+PROGRESS CODE: V03020002 I0
+Unix Firmware Volume PEIM Loaded
+PROGRESS CODE: V03020003 I0
+Loading PEIM C9FAF091-57F8-A64C-A07A-445B124F0D93
+LoadLibraryEx (
+  c:\users\kartikay\desktop\programming\dell\chainkulikimainkuli\edk2\Build\EmulatorIA32\DEBUG_VS2019\IA32\EmulatorPkg\FlashMapPei\FlashMapPei\DEBUG\FlashMapPei.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES)
+Loading PEIM at 0x0000A3CB000 EntryPoint=0x00074651000 FlashMapPei.efi
+PROGRESS CODE: V03020002 I0
+EmulatorPkg Flash Map PEIM Loaded
+PROGRESS CODE: V03020003 I0
+Loading PEIM E64BE91D-0D88-4121-AFF8-FDAD9B90FBC1
+LoadLibraryEx (
+  c:\users\kartikay\desktop\programming\dell\chainkulikimainkuli\edk2\Build\EmulatorIA32\DEBUG_VS2019\IA32\EmulatorPkg\AdditionPeim\AdditionPeim\DEBUG\AdditionPeim.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES)
+Loading PEIM at 0x0000A3C4000 EntryPoint=0x00074641000 AdditionPeim.efi
+PROGRESS CODE: V03020002 I0
+Addition PEIM Loaded
+Install PPI: 12345678-1234-5678-1234-56789ABCDEF0
+PROGRESS CODE: V03020003 I0
+Loading PEIM A0D42183-6F45-47A7-A9D3-46D0D853AD9B
+LoadLibraryEx (
+  c:\users\kartikay\desktop\programming\dell\chainkulikimainkuli\edk2\Build\EmulatorIA32\DEBUG_VS2019\IA32\EmulatorPkg\UseAdditionPeim\UseAdditionPeim\DEBUG\UseAdditionPeim.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES)
+Loading PEIM at 0x0000A3BD000 EntryPoint=0x00074631000 UseAdditionPeim.efi
+PROGRESS CODE: V03020002 I0
+Use PEIM Loaded
+Result of addition: 30
+PROGRESS CODE: V03020003 I0
+Loading PEIM C32A66D5-D8B7-2640-B768-082C8F083C37
+LoadLibraryEx (
+  c:\users\kartikay\desktop\programming\dell\chainkulikimainkuli\edk2\Build\EmulatorIA32\DEBUG_VS2019\IA32\EmulatorPkg\ThunkPpiToProtocolPei\ThunkPpiToProtocolPei\DEBUG\ThunkPpiToProtocolPei.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES)
+Loading PEIM at 0x0000A3B6000 EntryPoint=0x00074621000 ThunkPpiToProtocolPei.efi
+PROGRESS CODE: V03020002 I0
+Emu Thunk PEIM Loaded
+PROGRESS CODE: V03020003 I0
+Loading PEIM AAC33064-9ED0-4B89-A5AD-3EA767960B22
+LoadLibraryEx (
+  c:\users\kartikay\desktop\programming\dell\chainkulikimainkuli\edk2\Build\EmulatorIA32\DEBUG_VS2019\IA32\MdeModulePkg\Universal\FaultTolerantWritePei\FaultTolerantWritePei\DEBUG\FaultTolerantWritePei.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES)
+Loading PEIM at 0x0000A3AE000 EntryPoint=0x00074461000 FaultTolerantWritePei.efi
+PROGRESS CODE: V03020002 I0
+Install PPI: 1D3E9CB8-43AF-490B-830A-3516AA532047
+PROGRESS CODE: V03020003 I0
+Loading PEIM 34C8C28F-B61C-45A2-8F2E-89E46BECC63B
+LoadLibraryEx (
+  c:\users\kartikay\desktop\programming\dell\chainkulikimainkuli\edk2\Build\EmulatorIA32\DEBUG_VS2019\IA32\MdeModulePkg\Universal\Variable\Pei\VariablePei\DEBUG\PeiVariable.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES)
+Loading PEIM at 0x0000A3A5000 EntryPoint=0x00074451000 PeiVariable.efi
+PROGRESS CODE: V03020002 I0
+Install PPI: 2AB86EF5-ECB5-4134-B556-3854CA1FE1B4
+PROGRESS CODE: V03020003 I0
+Loading PEIM 86D70125-BAA3-4296-A62F-602BEBBB9081
+LoadLibraryEx (
+  c:\users\kartikay\desktop\programming\dell\chainkulikimainkuli\edk2\Build\EmulatorIA32\DEBUG_VS2019\IA32\MdeModulePkg\Core\DxeIplPeim\DxeIpl\DEBUG\DxeIpl.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES)
+Loading PEIM at 0x0000A397000 EntryPoint=0x000744410C0 DxeIpl.efi
+PROGRESS CODE: V03020002 I0
+PROGRESS CODE: V03020003 I0
+Install PPI: 1A36E4E7-FAB6-476A-8E75-695A0576FDD7
+Install PPI: 0AE8CE5D-E448-4437-A8D7-EBF5F194F731
+DXE IPL Entry
+Loading PEIM D6A2CB7F-6A18-4E2F-B43B-9920A733700A
+LoadLibraryEx (
+  c:\users\kartikay\desktop\programming\dell\chainkulikimainkuli\edk2\Build\EmulatorIA32\DEBUG_VS2019\IA32\MdeModulePkg\Core\Dxe\DxeMain\DEBUG\DxeCore.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES)
+Loading PEIM at 0x0000A31C000 EntryPoint=0x000740D1090 DxeCore.efi
+PROGRESS CODE: V03021001 I0
+Loading DXE CORE at 0x0000A31C000 EntryPoint=0x000740D1090
+Install PPI: 605EA650-C65C-42E1-BA80-91A52AB618C6
+Notify: PPI Guid: 605EA650-C65C-42E1-BA80-91A52AB618C6, Peim notify entry point: 75271370
+HandOffToDxeCore() Stack Base: 0xA2FC000, Stack Size: 0x20000
+DxeMain: MemoryBaseAddress=0x6422000 MemoryLength=0x3EDA000
+WARNING: DLL already loaded.  No source level debug c:\users\kartikay\desktop\programming\dell\chainkulikimainkuli\edk2\Build\EmulatorIA32\DEBUG_VS2019\IA32\MdeModulePkg\Core\Dxe\DxeMain\DEBUG\DxeCore.DLL.
+HOBLIST address in DXE = 0xA2F8010
+Memory Allocation 0x00000004 0xA2FC000 - 0xA31BFFF
+Memory Allocation 0x00000003 0xA3E5000 - 0xA3FFFFF
+Memory Allocation 0x00000003 0xA3D9000 - 0xA3E4FFF
+Memory Allocation 0x00000003 0xA3D2000 - 0xA3D8FFF
+Memory Allocation 0x00000003 0xA3CB000 - 0xA3D1FFF
+Memory Allocation 0x00000003 0xA3C4000 - 0xA3CAFFF
+Memory Allocation 0x00000003 0xA3BD000 - 0xA3C3FFF
+Memory Allocation 0x00000003 0xA3B6000 - 0xA3BCFFF
+Memory Allocation 0x00000003 0xA3AE000 - 0xA3B5FFF
+Memory Allocation 0x00000003 0xA3A5000 - 0xA3ADFFF
+Memory Allocation 0x00000003 0xA397000 - 0xA3A4FFF
+Memory Allocation 0x00000004 0xA393000 - 0xA396FFF
+Memory Allocation 0x00000004 0xA357000 - 0xA392FFF
+Memory Allocation 0x00000003 0xA31C000 - 0xA356FFF
+Memory Allocation 0x00000003 0xA31C000 - 0xA356FFF
+Memory Allocation 0x00000004 0xA2FC000 - 0xA31BFFF
+Memory Allocation 0x00000004 0x6400000 - 0x641FFFF
+FV Hob            0xE420000 - 0xE99FFFF
+FV Hob            0xE9A0000 - 0xE9BFFFF
+InstallProtocolInterface: D8117CFE-94A6-11D4-9A3A-0090273FC14D 741065D0
+InstallProtocolInterface: 8F644FA9-E850-4DB1-9CE2-0B44698E8DA4 A2F201C
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B A2F2F10
+InstallProtocolInterface: 8F644FA9-E850-4DB1-9CE2-0B44698E8DA4 A2F299C
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B A2F2890
+InstallProtocolInterface: 220E73B6-6BDB-4413-8405-B974B108619A A2F251C
+InstallProtocolInterface: EE4E5898-3914-4259-9D6E-DC7BD79403CF 74106F50
+InstallProtocolInterface: FC1BCDB0-7D31-49AA-936A-A4600D9DD083 74106F50
+Loading driver 80CF7257-87AB-47F9-A3FE-D50B76D89541
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B A0031A8
+LoadLibraryEx (
+  c:\users\kartikay\desktop\programming\dell\chainkulikimainkuli\edk2\Build\EmulatorIA32\DEBUG_VS2019\IA32\MdeModulePkg\Universal\PCD\Dxe\Pcd\DEBUG\PcdDxe.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES)
+Loading driver at 0x00009DDC000 EntryPoint=0x000740C1040 PcdDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF A003410
+ProtectUefiImageCommon - 0xA0031A8
+  - 0x0000000009DDC000 - 0x000000000000D000
+InstallProtocolInterface: 11B34006-D85B-4D0A-A290-D5A571310EF7 740CA148
+InstallProtocolInterface: 13A3F0F6-264A-3EF0-F2E0-DEC512342F34 740CA0F8
+InstallProtocolInterface: 5BE40F57-FA68-4610-BBBF-E9C5FCDAD365 740CA1D0
+InstallProtocolInterface: FD0F4478-0EFD-461D-BA2D-E58C45FD5F5E 740CA140
+Loading driver C8339973-A563-4561-B858-D8476F9DEFC4
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B A0022A8
+LoadLibraryEx (
+  c:\users\kartikay\desktop\programming\dell\chainkulikimainkuli\edk2\Build\EmulatorIA32\DEBUG_VS2019\IA32\MdeModulePkg\Universal\Metronome\Metronome\DEBUG\Metronome.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES)
+Loading driver at 0x00009DC2000 EntryPoint=0x000740B10C0 Metronome.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF A001B10
+ProtectUefiImageCommon - 0xA0022A8
+  - 0x0000000009DC2000 - 0x0000000000008000
+InstallProtocolInterface: 26BACCB2-6F42-11D4-BCE7-0080C73C8881 740B5094
+Loading driver D93CE3D8-A7EB-4730-8C8E-CC466A9ECC3C
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B A001128
+LoadLibraryEx (
+  c:\users\kartikay\desktop\programming\dell\chainkulikimainkuli\edk2\Build\EmulatorIA32\DEBUG_VS2019\IA32\MdeModulePkg\Universal\ReportStatusCodeRouter\RuntimeDxe\ReportStatusCodeRouterRuntimeDxe\DEBUG\ReportStatusCodeRouterRuntimeDxe.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES)
+Loading driver at 0x00009D97000 EntryPoint=0x000740A10C0 ReportStatusCodeRouterRuntimeDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF A001590
+ProtectUefiImageCommon - 0xA001128
+  - 0x0000000009D97000 - 0x000000000000A000
+InstallProtocolInterface: 86212936-0E76-41C8-A03A-2AF2FC1C39E2 740A70B0
+InstallProtocolInterface: D2B2B828-0826-48A7-B3DF-983C006024F0 740A70AC
+Loading driver F3552032-8985-11DB-8429-0040D02B1835
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 9DEA828
+LoadLibraryEx (
+  c:\users\kartikay\desktop\programming\dell\chainkulikimainkuli\edk2\Build\EmulatorIA32\DEBUG_VS2019\IA32\EmulatorPkg\RealTimeClockRuntimeDxe\RealTimeClock\DEBUG\RealTimeClock.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES)
+Loading driver at 0x00009D86000 EntryPoint=0x00074091040 RealTimeClock.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 9DEAB10
+ProtectUefiImageCommon - 0x9DEA828
+  - 0x0000000009D86000 - 0x0000000000008000
+InstallProtocolInterface: 27CFAC87-46CC-11D4-9A38-0090273FC14D 0
+Loading driver 50A18017-37AD-8743-BCF2-DF1A8FF12FAB
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 9DEA328
+LoadLibraryEx (
+  c:\users\kartikay\desktop\programming\dell\chainkulikimainkuli\edk2\Build\EmulatorIA32\DEBUG_VS2019\IA32\EmulatorPkg\ResetRuntimeDxe\Reset\DEBUG\EmuReset.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES)
+Loading driver at 0x00009D6F000 EntryPoint=0x00073DA1040 EmuReset.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 9DE9B10
+ProtectUefiImageCommon - 0x9DEA328
+  - 0x0000000009D6F000 - 0x0000000000007000
+InstallProtocolInterface: 27CFAC88-46CC-11D4-9A38-0090273FC14D 0
+Loading driver B601F8C4-43B7-4784-95B1-F4226CB40CEE
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 9DE97A8
+LoadLibraryEx (
+  c:\users\kartikay\desktop\programming\dell\chainkulikimainkuli\edk2\Build\EmulatorIA32\DEBUG_VS2019\IA32\MdeModulePkg\Core\RuntimeDxe\RuntimeDxe\DEBUG\RuntimeDxe.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES)
+Loading driver at 0x00009D48000 EntryPoint=0x00073D91040 RuntimeDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 9DE9610
+ProtectUefiImageCommon - 0x9DE97A8
+  - 0x0000000009D48000 - 0x0000000000009000
+InstallProtocolInterface: B7DFB4E1-052F-449F-87BE-9818FC91B733 73D96084
+Loading driver A01E498C-96E8-2A4C-95F4-85248F989753
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 9DA2B28
+LoadLibraryEx (
+  c:\users\kartikay\desktop\programming\dell\chainkulikimainkuli\edk2\Build\EmulatorIA32\DEBUG_VS2019\IA32\EmulatorPkg\FvbServicesRuntimeDxe\FvbServicesRuntimeDxe\DEBUG\FwBlockService.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES)
+Loading driver at 0x00009D51000 EntryPoint=0x00073D81040 FwBlockService.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 9DA2D90
+ProtectUefiImageCommon - 0x9DA2B28
+  - 0x0000000009D51000 - 0x000000000000A000
+InstallProtocolInterface: 8F644FA9-E850-4DB1-9CE2-0B44698E8DA4 9DA1B34
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B 9DA1B14
+InstallProtocolInterface: 220E73B6-6BDB-4413-8405-B974B108619A 9DA259C
+FvImage on FvHandle 9DA2910 and A2F2A10 has the same FvNameGuid 6D99E806-3D38-42C2-A095-5F4300BFD7DC.
+Loading driver F80697E9-7FD6-4665-8646-88E33EF71DFC
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 9D7C228
+LoadLibraryEx (
+  c:\users\kartikay\desktop\programming\dell\chainkulikimainkuli\edk2\Build\EmulatorIA32\DEBUG_VS2019\IA32\MdeModulePkg\Universal\SecurityStubDxe\SecurityStubDxe\DEBUG\SecurityStubDxe.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES)
+Loading driver at 0x00009CF3000 EntryPoint=0x00073D71040 SecurityStubDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 9D7BF10
+ProtectUefiImageCommon - 0x9D7C228
+  - 0x0000000009CF3000 - 0x000000000000F000
+InstallProtocolInterface: 94AB2F58-1438-4EF1-9152-18941A3A0E68 73D7C1B8
+InstallProtocolInterface: A46423E3-4617-49F1-B9FF-D1BFA9115839 73D7C1B4
+InstallProtocolInterface: 15853D7C-3DDF-43E0-A1CB-EBF85B8F872C 73D7C1BC
+Loading driver 13AC6DD0-73D0-11D4-B06B-00AA00BD6DE7
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 9D7B228
+LoadLibraryEx (
+  c:\users\kartikay\desktop\programming\dell\chainkulikimainkuli\edk2\Build\EmulatorIA32\DEBUG_VS2019\IA32\MdeModulePkg\Universal\EbcDxe\EbcDxe\DEBUG\EbcDxe.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES)
+Loading driver at 0x00009CC4000 EntryPoint=0x00073D61140 EbcDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 9D7B590
+ProtectUefiImageCommon - 0x9D7B228
+  - 0x0000000009CC4000 - 0x000000000000F000
+InstallProtocolInterface: 13AC6DD1-73D0-11D4-B06B-00AA00BD6DE7 9D7A010
+InstallProtocolInterface: 96F46153-97A7-4793-ACC1-FA19BF78EA97 73D6C0C4
+InstallProtocolInterface: 2755590C-6F3C-42FA-9EA4-A3BA543CDA25 9D7AB90
+InstallProtocolInterface: AAEACCFD-F27B-4C17-B610-75CA1F2DFB52 9D7A090
+Loading driver 96B5C032-DF4C-4B6E-8232-438DCF448D0E
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 9D7A5A8
+LoadLibraryEx (
+  c:\users\kartikay\desktop\programming\dell\chainkulikimainkuli\edk2\Build\EmulatorIA32\DEBUG_VS2019\IA32\MdeModulePkg\Universal\MemoryTest\NullMemoryTestDxe\NullMemoryTestDxe\DEBUG\NullMemoryTestDxe.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES)
+Loading driver at 0x000098AA000 EntryPoint=0x00073D51040 NullMemoryTestDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 9D7A510
+ProtectUefiImageCommon - 0x9D7A5A8
+  - 0x00000000098AA000 - 0x0000000000008000
+InstallProtocolInterface: 309DE7F1-7F5E-4ACE-B49C-531BE5AA95EF 73D55074
+Loading driver 2F62A818-4A72-CD40-90B9-FF00DAABEE7B
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 9D79BA8
+LoadLibraryEx (
+  c:\users\kartikay\desktop\programming\dell\chainkulikimainkuli\edk2\Build\EmulatorIA32\DEBUG_VS2019\IA32\EmulatorPkg\EmuThunkDxe\EmuThunk\DEBUG\EmuThunk.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES)
+Loading driver at 0x00009CD3000 EntryPoint=0x00073CF1040 EmuThunk.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 9D79A10
+ProtectUefiImageCommon - 0x9D79BA8
+  - 0x0000000009CD3000 - 0x0000000000007000
+InstallProtocolInterface: 5CF32E0B-8EDF-2E44-9CDA-93205E99EC1C A050D8
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B 73CF4084
+Loading driver CBD2E4D5-7068-4FF5-B462-9822B4AD8D60
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 9D79228
+LoadLibraryEx (
+  c:\users\kartikay\desktop\programming\dell\chainkulikimainkuli\edk2\Build\EmulatorIA32\DEBUG_VS2019\IA32\MdeModulePkg\Universal\Variable\RuntimeDxe\VariableRuntimeDxe\DEBUG\VariableRuntimeDxe.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES)
+Loading driver at 0x0000983F000 EntryPoint=0x00073CD10C0 VariableRuntimeDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 9D78F90
+ProtectUefiImageCommon - 0x9D79228
+  - 0x000000000983F000 - 0x0000000000018000
+InstallProtocolInterface: CD3D0A05-9E24-437C-A891-1EE053DB7638 73CE51F4
+InstallProtocolInterface: AF23B340-97B4-4685-8D4F-A3F28169B21D 73CE51F8
+InstallProtocolInterface: 1E5668E2-8481-11D4-BCF1-0080C73C8881 0
+InstallProtocolInterface: 81D1675C-86F6-48DF-BD95-9A6E4F0925C3 73CE5208
+Loading driver 9A5163E7-5C29-453F-825C-837A46A81E15
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 98B2028
+LoadLibraryEx (
+  c:\users\kartikay\desktop\programming\dell\chainkulikimainkuli\edk2\Build\EmulatorIA32\DEBUG_VS2019\IA32\MdeModulePkg\Universal\SerialDxe\SerialDxe\DEBUG\SerialDxe.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES)
+Loading driver at 0x00009816000 EntryPoint=0x00073CC1040 SerialDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 98B2F90
+ProtectUefiImageCommon - 0x98B2028
+  - 0x0000000009816000 - 0x0000000000006000
+Error: Image at 00009816000 start failed: Device Error
+FreeLibrary (
+  c:\users\kartikay\desktop\programming\dell\chainkulikimainkuli\edk2\Build\EmulatorIA32\DEBUG_VS2019\IA32\MdeModulePkg\Universal\SerialDxe\SerialDxe\DEBUG\SerialDxe.pdb)
+Loading driver 9B680FCE-AD6B-4F3A-B60B-F59899003443
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 98B2BA8
+LoadLibraryEx (
+  c:\users\kartikay\desktop\programming\dell\chainkulikimainkuli\edk2\Build\EmulatorIA32\DEBUG_VS2019\IA32\MdeModulePkg\Universal\DevicePathDxe\DevicePathDxe\DEBUG\DevicePathDxe.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES)
+Loading driver at 0x000097CC000 EntryPoint=0x00073CB1040 DevicePathDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 98B2E90
+ProtectUefiImageCommon - 0x98B2BA8
+  - 0x00000000097CC000 - 0x0000000000015000
+InstallProtocolInterface: 0379BE4E-D706-437D-B037-EDB82FB772A4 73CBE1A8
+InstallProtocolInterface: 8B843E20-8132-4852-90CC-551A4E4A7F1C 73CBE1A0
+InstallProtocolInterface: 05C99A21-C70F-4AD2-8A5F-35DF3343F51E 73CBE1C8
+Loading driver F9D88642-0737-49BC-81B5-6889CD57D9EA
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 98B2228
+LoadLibraryEx (
+  c:\users\kartikay\desktop\programming\dell\chainkulikimainkuli\edk2\Build\EmulatorIA32\DEBUG_VS2019\IA32\MdeModulePkg\Universal\SmbiosDxe\SmbiosDxe\DEBUG\SmbiosDxe.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES)
+Loading driver at 0x000097A9000 EntryPoint=0x00073CA1040 SmbiosDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 985B010
+ProtectUefiImageCommon - 0x98B2228
+  - 0x00000000097A9000 - 0x000000000000B000
+InstallProtocolInterface: 03583FF6-CB36-4940-947E-B9B39F4AFAF7 73CA8148
+Loading driver 348C4D62-BFBD-4882-9ECE-C80BB1C4783B
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 985B7A8
+LoadLibraryEx (
+  c:\users\kartikay\desktop\programming\dell\chainkulikimainkuli\edk2\Build\EmulatorIA32\DEBUG_VS2019\IA32\MdeModulePkg\Universal\HiiDatabaseDxe\HiiDatabaseDxe\DEBUG\HiiDatabase.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES)
+Loading driver at 0x000096EE000 EntryPoint=0x00073C71040 HiiDatabase.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 985BA90
+ProtectUefiImageCommon - 0x985B7A8
+  - 0x00000000096EE000 - 0x000000000002E000
+InstallProtocolInterface: E9CA4775-8657-47FC-97E7-7ED65A084324 73C9A19C
+InstallProtocolInterface: 0FD96974-23AA-4CDC-B9CB-98D17750322A 73C9A1D8
+InstallProtocolInterface: EF9FC172-A1B2-4693-B327-6D32FC416042 73C9A1EC
+InstallProtocolInterface: 587E72D7-CC50-4F79-8209-CA291FC1A10F 73C9A218
+InstallProtocolInterface: 0A8BADD5-03B8-4D19-B128-7B8F0EDAA596 73C9A230
+InstallProtocolInterface: 31A6406A-6BDF-4E46-B2A2-EBAA89C40920 73C9A1AC
+InstallProtocolInterface: 1A1241E6-8F19-41A9-BC0E-E8EF39E06546 73C9A1C0
+Loading driver 79E4A61C-ED73-4312-94FE-E3E7563362A9
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 985A7A8
+LoadLibraryEx (
+  c:\users\kartikay\desktop\programming\dell\chainkulikimainkuli\edk2\Build\EmulatorIA32\DEBUG_VS2019\IA32\MdeModulePkg\Universal\PrintDxe\PrintDxe\DEBUG\PrintDxe.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES)
+Loading driver at 0x000097E1000 EntryPoint=0x00073C61040 PrintDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 985A710
+ProtectUefiImageCommon - 0x985A7A8
+  - 0x00000000097E1000 - 0x000000000000A000
+InstallProtocolInterface: F05976EF-83F1-4F3D-8619-F7595D41E538 73C653B4
+InstallProtocolInterface: 0CC252D2-C106-4661-B5BD-3147A4F81F92 73C653DC
+Loading driver BD712601-082F-4C59-8677-2C8A3C297948
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 9859B28
+LoadLibraryEx (
+  c:\users\kartikay\desktop\programming\dell\chainkulikimainkuli\edk2\Build\EmulatorIA32\DEBUG_VS2019\IA32\MdeModulePkg\Universal\LoadFileOnFv2\LoadFileOnFv2\DEBUG\LoadFileOnFv2.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES)
+Loading driver at 0x000096E4000 EntryPoint=0x00073C51040 LoadFileOnFv2.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 9859D10
+ProtectUefiImageCommon - 0x9859B28
+  - 0x00000000096E4000 - 0x000000000000A000
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B 9859190
+InstallProtocolInterface: 56EC3091-954C-11D2-8E3F-00A0C969723B 9859594
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B 9858D90
+InstallProtocolInterface: 56EC3091-954C-11D2-8E3F-00A0C969723B 9858E14
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B 9858590
+InstallProtocolInterface: 56EC3091-954C-11D2-8E3F-00A0C969723B 9858914
+Loading driver A210F973-229D-4F4D-AA37-9895E6C9EABA
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 97B4028
+LoadLibraryEx (
+  c:\users\kartikay\desktop\programming\dell\chainkulikimainkuli\edk2\Build\EmulatorIA32\DEBUG_VS2019\IA32\NetworkPkg\DpcDxe\DpcDxe\DEBUG\DpcDxe.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES)
+Loading driver at 0x000090B6000 EntryPoint=0x000739E1040 DpcDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 97B4F10
+ProtectUefiImageCommon - 0x97B4028
+  - 0x00000000090B6000 - 0x0000000000008000
+InstallProtocolInterface: 480F8AE9-0C46-4AA9-BC89-DB9FBA619806 739E5064
+Loading driver 6C2004EF-4E0E-4BE4-B14C-340EB4AA5891
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 97B4928
+LoadLibraryEx (
+  c:\users\kartikay\desktop\programming\dell\chainkulikimainkuli\edk2\Build\EmulatorIA32\DEBUG_VS2019\IA32\MdeModulePkg\Universal\StatusCodeHandler\RuntimeDxe\StatusCodeHandlerRuntimeDxe\DEBUG\StatusCodeHandlerRuntimeDxe.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES)
+Loading driver at 0x0000908B000 EntryPoint=0x000739D1040 StatusCodeHandlerRuntimeDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 97B4290
+ProtectUefiImageCommon - 0x97B4928
+  - 0x000000000908B000 - 0x000000000000A000
+PROGRESS CODE: V03040003 I0
+Loading driver F3794B60-8985-11DB-8E53-0040D02B1835
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 90C6B28
+LoadLibraryEx (
+  c:\users\kartikay\desktop\programming\dell\chainkulikimainkuli\edk2\Build\EmulatorIA32\DEBUG_VS2019\IA32\EmulatorPkg\CpuRuntimeDxe\Cpu\DEBUG\Cpu.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES)
+Loading driver at 0x00009095000 EntryPoint=0x000739C10C0 Cpu.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 90C6D90
+ProtectUefiImageCommon - 0x90C6B28
+  - 0x0000000009095000 - 0x000000000000B000
+PROGRESS CODE: V03040002 I0
+SmbiosAdd: Smbios type 4 with size 0x78 is added to 32-bit table
+SmbiosAdd: Smbios type 4 with size 0x78 is added to 64-bit table
+SmbiosCreateTable: Initialize 32-bit entry point structure
+SmbiosCreateTable() re-allocate SMBIOS 32-bit table
+SmbiosCreateTable: Initialize 64-bit entry point structure
+SmbiosCreate64BitTable() re-allocate SMBIOS 64-bit table
+InstallProtocolInterface: 26BACCB1-6F42-11D4-BCE7-0080C73C8881 739C8190
+InstallProtocolInterface: AD61F191-AE5F-4C0E-B9FA-E869D288C64F 739C81B8
+MemoryProtectionCpuArchProtocolNotify:
+PROGRESS CODE: V03040003 I0
+Loading driver FE5CEA76-4F72-49E8-986F-2CD899DFFE5D
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 90C61A8
+LoadLibraryEx (
+  c:\users\kartikay\desktop\programming\dell\chainkulikimainkuli\edk2\Build\EmulatorIA32\DEBUG_VS2019\IA32\MdeModulePkg\Universal\FaultTolerantWriteDxe\FaultTolerantWriteDxe\DEBUG\FaultTolerantWriteDxe.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES)
+Loading driver at 0x0000903C000 EntryPoint=0x000739B1040 FaultTolerantWriteDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 90C6410
+ProtectUefiImageCommon - 0x90C61A8
+  - 0x000000000903C000 - 0x000000000000D000
+PROGRESS CODE: V03040002 I0
+Ftw: FtwWorkSpaceLba - 0x0, WorkBlockSize  - 0x10000, FtwWorkSpaceBase - 0xE000
+Ftw: FtwSpareLba     - 0x1, SpareBlockSize - 0x10000
+Ftw: NumberOfWorkBlock - 0x1, FtwWorkBlockLba - 0x0
+Ftw: WorkSpaceLbaInSpare - 0x0, WorkSpaceBaseInSpare - 0xE000
+Ftw: Remaining work space size - 1FE0
+InstallProtocolInterface: 3EBD9E82-2C78-4DE6-9786-8D4BFCB7C881 90BE018
+RecordSecureBootPolicyVarData GetVariable SecureBoot Status 8000000E
+InstallProtocolInterface: 6441F818-6362-4E44-B570-7DBA31DD2453 0
+PROGRESS CODE: V03040003 I0
+Loading driver 67FA951E-4FA2-9F4E-A658-4DBD954AC22E
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 90C1CA8
+LoadLibraryEx (
+  c:\users\kartikay\desktop\programming\dell\chainkulikimainkuli\edk2\Build\EmulatorIA32\DEBUG_VS2019\IA32\EmulatorPkg\PlatformSmbiosDxe\PlatformSmbiosDxe\DEBUG\PlatformSmbiosDxe.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES)
+Loading driver at 0x0000901F000 EntryPoint=0x000739A1040 PlatformSmbiosDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 90C1290
+ProtectUefiImageCommon - 0x90C1CA8
+  - 0x000000000901F000 - 0x0000000000009000
+PROGRESS CODE: V03040002 I0
+SmbiosAdd: Smbios type 0 with size 0x4F is added to 32-bit table
+SmbiosAdd: Smbios type 0 with size 0x4F is added to 64-bit table
+SmbiosAdd: Smbios type 1 with size 0x6B is added to 32-bit table
+SmbiosAdd: Smbios type 1 with size 0x6B is added to 64-bit table
+SmbiosAdd: Smbios type 2 with size 0x79 is added to 32-bit table
+SmbiosAdd: Smbios type 2 with size 0x79 is added to 64-bit table
+SmbiosAdd: Smbios type 3 with size 0x73 is added to 32-bit table
+SmbiosAdd: Smbios type 3 with size 0x73 is added to 64-bit table
+SmbiosAdd: Smbios type 8 with size 0x1B is added to 32-bit table
+SmbiosAdd: Smbios type 8 with size 0x1B is added to 64-bit table
+SmbiosAdd: Smbios type 8 with size 0x17 is added to 32-bit table
+SmbiosAdd: Smbios type 8 with size 0x17 is added to 64-bit table
+SmbiosAdd: Smbios type 8 with size 0x13 is added to 32-bit table
+SmbiosAdd: Smbios type 8 with size 0x13 is added to 64-bit table
+SmbiosAdd: Smbios type 8 with size 0xF is added to 32-bit table
+SmbiosAdd: Smbios type 8 with size 0xF is added to 64-bit table
+SmbiosAdd: Smbios type 8 with size 0xF is added to 32-bit table
+SmbiosAdd: Smbios type 8 with size 0xF is added to 64-bit table
+SmbiosAdd: Smbios type 8 with size 0xF is added to 32-bit table
+SmbiosAdd: Smbios type 8 with size 0xF is added to 64-bit table
+SmbiosAdd: Smbios type 8 with size 0xF is added to 32-bit table
+SmbiosAdd: Smbios type 8 with size 0xF is added to 64-bit table
+SmbiosAdd: Smbios type 8 with size 0x18 is added to 32-bit table
+SmbiosAdd: Smbios type 8 with size 0x18 is added to 64-bit table
+SmbiosAdd: Smbios type 8 with size 0x19 is added to 32-bit table
+SmbiosAdd: Smbios type 8 with size 0x19 is added to 64-bit table
+SmbiosAdd: Smbios type 9 with size 0x21 is added to 32-bit table
+SmbiosAdd: Smbios type 9 with size 0x21 is added to 64-bit table
+SmbiosAdd: Smbios type 11 with size 0x42 is added to 32-bit table
+SmbiosAdd: Smbios type 11 with size 0x42 is added to 64-bit table
+SmbiosAdd: Smbios type 12 with size 0x51 is added to 32-bit table
+SmbiosAdd: Smbios type 12 with size 0x51 is added to 64-bit table
+SmbiosAdd: Smbios type 16 with size 0x19 is added to 32-bit table
+SmbiosAdd: Smbios type 16 with size 0x19 is added to 64-bit table
+SmbiosAdd: Smbios type 17 with size 0x7A is added to 32-bit table
+SmbiosAdd: Smbios type 17 with size 0x7A is added to 64-bit table
+SmbiosAdd: Smbios type 32 with size 0xF is added to 32-bit table
+SmbiosAdd: Smbios type 32 with size 0xF is added to 64-bit table
+SmbiosAdd: Smbios type 32 with size 0xD is added to 32-bit table
+SmbiosAdd: Smbios type 32 with size 0xD is added to 64-bit table
+SmbiosAdd: Smbios type 19 with size 0x21 is added to 32-bit table
+SmbiosAdd: Smbios type 19 with size 0x21 is added to 64-bit table
+SmbiosAdd: Smbios type 19 with size 0x21 is added to 32-bit table
+SmbiosAdd: Smbios type 19 with size 0x21 is added to 64-bit table
+PROGRESS CODE: V03040003 I0
+Loading driver EBF342FE-B1D3-4EF8-957C-8048606FF671
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 904B128
+LoadLibraryEx (
+  c:\users\kartikay\desktop\programming\dell\chainkulikimainkuli\edk2\Build\EmulatorIA32\DEBUG_VS2019\IA32\MdeModulePkg\Universal\SetupBrowserDxe\SetupBrowserDxe\DEBUG\SetupBrowser.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES)
+Loading driver at 0x00008F7C000 EntryPoint=0x00073311040 SetupBrowser.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 904BA10
+ProtectUefiImageCommon - 0x904B128
+  - 0x0000000008F7C000 - 0x0000000000028000
+PROGRESS CODE: V03040002 I0
+InstallProtocolInterface: B9D4C360-BCFB-4F9B-9298-53C136982258 733341B8
+InstallProtocolInterface: A770C357-B693-4E6D-A6CF-D21C728E550B 733341D0
+InstallProtocolInterface: 1F73B18D-4630-43C1-A1DE-6F80855D7DA4 733341C0
+PROGRESS CODE: V03040003 I0
+Loading driver F74D20EE-37E7-48FC-97F7-9B1047749C69
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 904ACA8
+LoadLibraryEx (
+  c:\users\kartikay\desktop\programming\dell\chainkulikimainkuli\edk2\Build\EmulatorIA32\DEBUG_VS2019\IA32\MdeModulePkg\Logo\LogoDxe\DEBUG\LogoDxe.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES)
+Loading driver at 0x00009028000 EntryPoint=0x00073991040 LogoDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 904A810
+InstallProtocolInterface: 6A1EE763-D47A-43B4-AABE-EF1DE2AB56FC 902E060
+ProtectUefiImageCommon - 0x904ACA8
+  - 0x0000000009028000 - 0x000000000000A000
+PROGRESS CODE: V03040002 I0
+InstallProtocolInterface: 53CD299F-2BC1-40C0-8C07-23F64FDB30E0 73994094
+PROGRESS CODE: V03040003 I0
+Loading driver A487A478-51EF-48AA-8794-7BEE2A0562F1
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 9049428
+LoadLibraryEx (
+  c:\users\kartikay\desktop\programming\dell\chainkulikimainkuli\edk2\Build\EmulatorIA32\DEBUG_VS2019\IA32\ShellPkg\DynamicCommand\TftpDynamicCommand\TftpDynamicCommand\DEBUG\tftpDynamicCommand.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES)
+Loading driver at 0x00008F25000 EntryPoint=0x000732F1040 tftpDynamicCommand.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 9049E10
+InstallProtocolInterface: 6A1EE763-D47A-43B4-AABE-EF1DE2AB56FC 8F37060
+ProtectUefiImageCommon - 0x9049428
+  - 0x0000000008F25000 - 0x0000000000015000
+PROGRESS CODE: V03040002 I0
+InstallProtocolInterface: 3C7200E9-005F-4EA4-87DE-A3DFAC8A27C3 73300194
+PROGRESS CODE: V03040003 I0
+Loading driver 87E1BB14-4D5C-7C4E-A90E-E1415687D062
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 8FA8B28
+LoadLibraryEx (
+  c:\users\kartikay\desktop\programming\dell\chainkulikimainkuli\edk2\Build\EmulatorIA32\DEBUG_VS2019\IA32\EmulatorPkg\TimerDxe\Timer\DEBUG\EmuTimer.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES)
+Loading driver at 0x00008F1D000 EntryPoint=0x00073981040 EmuTimer.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 8FA8E90
+ProtectUefiImageCommon - 0x8FA8B28
+  - 0x0000000008F1D000 - 0x0000000000008000
+PROGRESS CODE: V03040002 I0
+InstallProtocolInterface: 26BACCB3-6F42-11D4-BCE7-0080C73C8881 73985094
+PROGRESS CODE: V03040003 I0
+Loading driver AD608272-D07F-4964-801E-7BD3B7888652
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 8FA8228
+LoadLibraryEx (
+  c:\users\kartikay\desktop\programming\dell\chainkulikimainkuli\edk2\Build\EmulatorIA32\DEBUG_VS2019\IA32\MdeModulePkg\Universal\MonotonicCounterRuntimeDxe\MonotonicCounterRuntimeDxe\DEBUG\MonotonicCounterRuntimeDxe.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES)
+Loading driver at 0x00008F03000 EntryPoint=0x000732E1040 MonotonicCounterRuntimeDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 8FA6010
+ProtectUefiImageCommon - 0x8FA8228
+  - 0x0000000008F03000 - 0x0000000000008000
+PROGRESS CODE: V03040002 I0
+InstallProtocolInterface: 1DA97072-BDDC-4B30-99F1-72A0B56FFF2A 0
+PROGRESS CODE: V03040003 I0
+Loading driver 42857F0A-13F2-4B21-8A23-53D3F714B840
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 8FA6828
+LoadLibraryEx (
+  c:\users\kartikay\desktop\programming\dell\chainkulikimainkuli\edk2\Build\EmulatorIA32\DEBUG_VS2019\IA32\MdeModulePkg\Universal\CapsuleRuntimeDxe\CapsuleRuntimeDxe\DEBUG\CapsuleRuntimeDxe.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES)
+Loading driver at 0x00008ED8000 EntryPoint=0x000732D1040 CapsuleRuntimeDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 8FA6690
+ProtectUefiImageCommon - 0x8FA6828
+  - 0x0000000008ED8000 - 0x000000000000A000
+PROGRESS CODE: V03040002 I0
+InstallProtocolInterface: 5053697E-2CBC-4819-90D9-0580DEEE5754 0
+PROGRESS CODE: V03040003 I0
+Loading driver E660EA85-058E-4B55-A54B-F02F83A24707
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 8FA4BA8
+LoadLibraryEx (
+  c:\users\kartikay\desktop\programming\dell\chainkulikimainkuli\edk2\Build\EmulatorIA32\DEBUG_VS2019\IA32\MdeModulePkg\Universal\DisplayEngineDxe\DisplayEngineDxe\DEBUG\DisplayEngine.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES)
+Loading driver at 0x00008E51000 EntryPoint=0x000732A1040 DisplayEngine.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 8FA4090
+ProtectUefiImageCommon - 0x8FA4BA8
+  - 0x0000000008E51000 - 0x0000000000021000
+PROGRESS CODE: V03040002 I0
+InstallProtocolInterface: 9BBE29E9-FDA1-41EC-AD52-452213742D2E 732BC718
+InstallProtocolInterface: 4311EDC0-6054-46D4-9E40-893EA952FCCC 732BC728
+PROGRESS CODE: V03040003 I0
+Loading driver 6D33944A-EC75-4855-A54D-809C75241F6C
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 8F3A128
+LoadLibraryEx (
+  c:\users\kartikay\desktop\programming\dell\chainkulikimainkuli\edk2\Build\EmulatorIA32\DEBUG_VS2019\IA32\MdeModulePkg\Universal\BdsDxe\BdsDxe\DEBUG\BdsDxe.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES)
+Loading driver at 0x00008DBA000 EntryPoint=0x00073271040 BdsDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 8F3A910
+ProtectUefiImageCommon - 0x8F3A128
+  - 0x0000000008DBA000 - 0x0000000000025000
+PROGRESS CODE: V03040002 I0
+InstallProtocolInterface: 665E3FF6-46CC-11D4-9A38-0090273FC14D 73291434
+PROGRESS CODE: V03040003 I0
+Loading driver F099D67F-71AE-4C36-B2A3-DCEB0EB2B7D8
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 8F11BA8
+LoadLibraryEx (
+  c:\users\kartikay\desktop\programming\dell\chainkulikimainkuli\edk2\Build\EmulatorIA32\DEBUG_VS2019\IA32\MdeModulePkg\Universal\WatchdogTimerDxe\WatchdogTimer\DEBUG\WatchdogTimer.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES)
+Loading driver at 0x00008E7D000 EntryPoint=0x00073261040 WatchdogTimer.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 8F11E90
+ProtectUefiImageCommon - 0x8F11BA8
+  - 0x0000000008E7D000 - 0x0000000000007000
+PROGRESS CODE: V03040002 I0
+InstallProtocolInterface: 665E3FF5-46CC-11D4-9A38-0090273FC14D 73264064
+PROGRESS CODE: V03040003 I0
+Loading driver 51CCF399-4FDF-4E55-A45B-E123F84D456A
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 8F11128
+LoadLibraryEx (
+  c:\users\kartikay\desktop\programming\dell\chainkulikimainkuli\edk2\Build\EmulatorIA32\DEBUG_VS2019\IA32\MdeModulePkg\Universal\Console\ConPlatformDxe\ConPlatformDxe\DEBUG\ConPlatformDxe.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES)
+Loading driver at 0x00008E72000 EntryPoint=0x00073251040 ConPlatformDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 8F11290
+ProtectUefiImageCommon - 0x8F11128
+  - 0x0000000008E72000 - 0x000000000000B000
+PROGRESS CODE: V03040002 I0
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 732581AC
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D 732581D0
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 732581C4
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 73258194
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D 732581D0
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 732581C4
+PROGRESS CODE: V03040003 I0
+Loading driver 408EDCEC-CF6D-477C-A5A8-B4844E3DE281
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 8F0F0A8
+LoadLibraryEx (
+  c:\users\kartikay\desktop\programming\dell\chainkulikimainkuli\edk2\Build\EmulatorIA32\DEBUG_VS2019\IA32\MdeModulePkg\Universal\Console\ConSplitterDxe\ConSplitterDxe\DEBUG\ConSplitterDxe.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES)
+Loading driver at 0x00008DE6000 EntryPoint=0x000732410C0 ConSplitterDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 8F0FA90
+ProtectUefiImageCommon - 0x8F0F0A8
+  - 0x0000000008DE6000 - 0x000000000000F000
+PROGRESS CODE: V03040002 I0
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 7324C27C
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D 7324C48C
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 7324C444
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 7324C368
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D 7324C474
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 7324C450
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 7324C350
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D 7324C42C
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 7324C45C
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 7324C154
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D 7324C468
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 7324C438
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 7324C294
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D 7324C480
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 7324C420
+InstallProtocolInterface: 387477C1-69C7-11D2-8E39-00A0C969723B 7324C17C
+InstallProtocolInterface: DD9E7534-7762-4698-8C14-F58517A625AA 7324C194
+InstallProtocolInterface: 31878C87-0B75-11D5-9A4F-0090273FC14D 7324C1CC
+InstallProtocolInterface: 8D59D32B-C655-4AE9-9B15-F25904992A43 7324C20C
+InstallProtocolInterface: 387477C2-69C7-11D2-8E39-00A0C969723B 7324C2BC
+InstallProtocolInterface: 387477C2-69C7-11D2-8E39-00A0C969723B 7324C38C
+PROGRESS CODE: V03040003 I0
+Loading driver CCCB0C28-4B24-11D5-9A5A-0090273FC14D
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 8F0C0A8
+LoadLibraryEx (
+  c:\users\kartikay\desktop\programming\dell\chainkulikimainkuli\edk2\Build\EmulatorIA32\DEBUG_VS2019\IA32\MdeModulePkg\Universal\Console\GraphicsConsoleDxe\GraphicsConsoleDxe\DEBUG\GraphicsConsoleDxe.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES)
+Loading driver at 0x00008DAE000 EntryPoint=0x00073231040 GraphicsConsoleDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 8F0CA90
+ProtectUefiImageCommon - 0x8F0C0A8
+  - 0x0000000008DAE000 - 0x000000000000C000
+PROGRESS CODE: V03040002 I0
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 732381CC
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D 73239784
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 73239778
+PROGRESS CODE: V03040003 I0
+Loading driver 9E863906-A40F-4875-977F-5B93FF237FC6
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 8F0C428
+LoadLibraryEx (
+  c:\users\kartikay\desktop\programming\dell\chainkulikimainkuli\edk2\Build\EmulatorIA32\DEBUG_VS2019\IA32\MdeModulePkg\Universal\Console\TerminalDxe\TerminalDxe\DEBUG\TerminalDxe.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES)
+Loading driver at 0x00008DF5000 EntryPoint=0x00073221040 TerminalDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 8F0BB10
+ProtectUefiImageCommon - 0x8F0C428
+  - 0x0000000008DF5000 - 0x0000000000010000
+PROGRESS CODE: V03040002 I0
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 7322D2A8
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D 7322D400
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 7322D3F4
+PROGRESS CODE: V03040003 I0
+Loading driver 6B38F7B4-AD98-40E9-9093-ACA2B5A253C4
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 8F0B0A8
+LoadLibraryEx (
+  c:\users\kartikay\desktop\programming\dell\chainkulikimainkuli\edk2\Build\EmulatorIA32\DEBUG_VS2019\IA32\MdeModulePkg\Universal\Disk\DiskIoDxe\DiskIoDxe\DEBUG\DiskIoDxe.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES)
+Loading driver at 0x00008D97000 EntryPoint=0x00072C01040 DiskIoDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 8F0B990
+ProtectUefiImageCommon - 0x8F0B0A8
+  - 0x0000000008D97000 - 0x000000000000B000
+PROGRESS CODE: V03040002 I0
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 72C080C4
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D 72C08130
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 72C0813C
+PROGRESS CODE: V03040003 I0
+Loading driver 1FA1F39E-FEFF-4AAE-BD7B-38A070A3B609
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 8F0B328
+LoadLibraryEx (
+  c:\users\kartikay\desktop\programming\dell\chainkulikimainkuli\edk2\Build\EmulatorIA32\DEBUG_VS2019\IA32\MdeModulePkg\Universal\Disk\PartitionDxe\PartitionDxe\DEBUG\PartitionDxe.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES)
+Loading driver at 0x00008D7A000 EntryPoint=0x00072BF1040 PartitionDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 8F0B610
+ProtectUefiImageCommon - 0x8F0B328
+  - 0x0000000008D7A000 - 0x000000000000E000
+PROGRESS CODE: V03040002 I0
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 72BFB104
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D 72BFB140
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 72BFB134
+PROGRESS CODE: V03040003 I0
+Loading driver CD3BAFB6-50FB-4FE8-8E4E-AB74D2C1A600
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 8EE4C28
+LoadLibraryEx (
+  c:\users\kartikay\desktop\programming\dell\chainkulikimainkuli\edk2\Build\EmulatorIA32\DEBUG_VS2019\IA32\MdeModulePkg\Universal\Disk\UnicodeCollation\EnglishDxe\EnglishDxe\DEBUG\EnglishDxe.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES)
+Loading driver at 0x00008D8F000 EntryPoint=0x00072BE1040 EnglishDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 8EE4A90
+ProtectUefiImageCommon - 0x8EE4C28
+  - 0x0000000008D8F000 - 0x0000000000008000
+PROGRESS CODE: V03040002 I0
+InstallProtocolInterface: 1D85CD7F-F43D-11D2-9A0C-0090273FC14D 72BE5074
+InstallProtocolInterface: A4C751FC-23AE-4C3E-92E9-4964CF63F349 72BE50B0
+PROGRESS CODE: V03040003 I0
+Loading driver 93B80004-9FB3-11D4-9A3A-0090273FC14D
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 8EE41A8
+LoadLibraryEx (
+  c:\users\kartikay\desktop\programming\dell\chainkulikimainkuli\edk2\Build\EmulatorIA32\DEBUG_VS2019\IA32\MdeModulePkg\Bus\Pci\PciBusDxe\PciBusDxe\DEBUG\PciBusDxe.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES)
+Loading driver at 0x00008D35000 EntryPoint=0x00072BB1040 PciBusDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 8EE4390
+ProtectUefiImageCommon - 0x8EE41A8
+  - 0x0000000008D35000 - 0x0000000000022000
+PROGRESS CODE: V03040002 I0
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 72BCF244
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D 72BCF26C
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 72BCF278
+InstallProtocolInterface: 19CB87AB-2CB9-4665-8360-DDCF6054F79D 72BCF25C
+PROGRESS CODE: V03040003 I0
+Loading driver 0167CCC4-D0F7-4F21-A3EF-9E64B7CDCE8B
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 8EE30A8
+LoadLibraryEx (
+  c:\users\kartikay\desktop\programming\dell\chainkulikimainkuli\edk2\Build\EmulatorIA32\DEBUG_VS2019\IA32\MdeModulePkg\Bus\Scsi\ScsiBusDxe\ScsiBusDxe\DEBUG\ScsiBus.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES)
+Loading driver at 0x00008D6F000 EntryPoint=0x00072BA1040 ScsiBus.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 8EE3890
+ProtectUefiImageCommon - 0x8EE30A8
+  - 0x0000000008D6F000 - 0x000000000000B000
+PROGRESS CODE: V03040002 I0
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 72BA80C4
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D 72BA80DC
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 72BA80E8
+PROGRESS CODE: V03040003 I0
+Loading driver 0A66E322-3740-4CCE-AD62-BD172CECCA35
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 8EE36A8
+LoadLibraryEx (
+  c:\users\kartikay\desktop\programming\dell\chainkulikimainkuli\edk2\Build\EmulatorIA32\DEBUG_VS2019\IA32\MdeModulePkg\Bus\Scsi\ScsiDiskDxe\ScsiDiskDxe\DEBUG\ScsiDisk.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES)
+Loading driver at 0x00008D20000 EntryPoint=0x00072B81040 ScsiDisk.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 8EE3310
+ProtectUefiImageCommon - 0x8EE36A8
+  - 0x0000000008D20000 - 0x0000000000015000
+PROGRESS CODE: V03040002 I0
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 72B92154
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D 72B92198
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 72B9218C
+PROGRESS CODE: V03040003 I0
+Loading driver 9842073D-95D9-9F49-BD3F-2E29525125DF
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 8EE2B28
+LoadLibraryEx (
+  c:\users\kartikay\desktop\programming\dell\chainkulikimainkuli\edk2\Build\EmulatorIA32\DEBUG_VS2019\IA32\EmulatorPkg\EmuBusDriverDxe\EmuBusDriverDxe\DEBUG\EmuBusDriver.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES)
+Loading driver at 0x00008D64000 EntryPoint=0x00072B71040 EmuBusDriver.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 8EE2D90
+ProtectUefiImageCommon - 0x8EE2B28
+  - 0x0000000008D64000 - 0x000000000000B000
+PROGRESS CODE: V03040002 I0
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 72B780C4
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D 72B780DC
+PROGRESS CODE: V03040003 I0
+Loading driver BCC87E0D-86D6-4D4D-8040-2D983D368BD1
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 8EE2828
+LoadLibraryEx (
+  c:\users\kartikay\desktop\programming\dell\chainkulikimainkuli\edk2\Build\EmulatorIA32\DEBUG_VS2019\IA32\EmulatorPkg\EmuGopDxe\EmuGopDxe\DEBUG\EmuGopDxe.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES)
+Loading driver at 0x00008D59000 EntryPoint=0x00072B61040 EmuGopDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 8EE2610
+ProtectUefiImageCommon - 0x8EE2828
+  - 0x0000000008D59000 - 0x000000000000B000
+PROGRESS CODE: V03040002 I0
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 72B680F4
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D 72B6810C
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 72B68118
+PROGRESS CODE: V03040003 I0
+Loading driver 35B72237-3926-CF4A-A7F3-1449F9E0E4BD
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 8E8B028
+LoadLibraryEx (
+  c:\users\kartikay\desktop\programming\dell\chainkulikimainkuli\edk2\Build\EmulatorIA32\DEBUG_VS2019\IA32\EmulatorPkg\EmuSimpleFileSystemDxe\EmuSimpleFileSystemDxe\DEBUG\EmuSimpleFileSystem.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES)
+Loading driver at 0x00008D16000 EntryPoint=0x00072B51040 EmuSimpleFileSystem.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 8E8BF10
+ProtectUefiImageCommon - 0x8E8B028
+  - 0x0000000008D16000 - 0x000000000000A000
+PROGRESS CODE: V03040002 I0
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 72B570A4
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D 72B570C8
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 72B570BC
+PROGRESS CODE: V03040003 I0
+Loading driver C6760651-A38D-5F4F-AEAF-F6661549DF75
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 8E8B8A8
+LoadLibraryEx (
+  c:\users\kartikay\desktop\programming\dell\chainkulikimainkuli\edk2\Build\EmulatorIA32\DEBUG_VS2019\IA32\EmulatorPkg\EmuBlockIoDxe\EmuBlockIoDxe\DEBUG\EmuBlockIo.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES)
+Loading driver at 0x00008D0C000 EntryPoint=0x00072B41040 EmuBlockIo.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 8E8BB90
+ProtectUefiImageCommon - 0x8E8B8A8
+  - 0x0000000008D0C000 - 0x000000000000A000
+PROGRESS CODE: V03040002 I0
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 72B47104
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D 72B4711C
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 72B47128
+InstallProtocolInterface: 0784924F-E296-11D4-9A49-0090273FC14D 72B4714C
+InstallProtocolInterface: 4D330321-025F-4AAC-90D8-5ED900173B63 72B47144
+PROGRESS CODE: V03040003 I0
+Loading driver 22597239-6107-DF44-AD3F-5F053E92222E
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 8E8A028
+LoadLibraryEx (
+  c:\users\kartikay\desktop\programming\dell\chainkulikimainkuli\edk2\Build\EmulatorIA32\DEBUG_VS2019\IA32\EmulatorPkg\EmuSnpDxe\EmuSnpDxe\DEBUG\EmuSnpDxe.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES)
+Loading driver at 0x00008D02000 EntryPoint=0x00072B31040 EmuSnpDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 8E8AF10
+ProtectUefiImageCommon - 0x8E8A028
+  - 0x0000000008D02000 - 0x000000000000A000
+PROGRESS CODE: V03040002 I0
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 72B370C4
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D 72B373C4
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 72B373B8
+PROGRESS CODE: V03040003 I0
+Loading driver E4F61863-FE2C-4B56-A8F4-08519BC439DF
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 8E8A8A8
+LoadLibraryEx (
+  c:\users\kartikay\desktop\programming\dell\chainkulikimainkuli\edk2\Build\EmulatorIA32\DEBUG_VS2019\IA32\NetworkPkg\VlanConfigDxe\VlanConfigDxe\DEBUG\VlanConfigDxe.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES)
+Loading driver at 0x00008CE1000 EntryPoint=0x00072B21040 VlanConfigDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 8E8AB90
+ProtectUefiImageCommon - 0x8E8A8A8
+  - 0x0000000008CE1000 - 0x0000000000010000
+PROGRESS CODE: V03040002 I0
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 72B2D548
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D 72B2D56C
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 72B2D560
+PROGRESS CODE: V03040003 I0
+Loading driver 025BBFC7-E6A9-4B8B-82AD-6815A1AEAF4A
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 8E8A328
+LoadLibraryEx (
+  c:\users\kartikay\desktop\programming\dell\chainkulikimainkuli\edk2\Build\EmulatorIA32\DEBUG_VS2019\IA32\NetworkPkg\MnpDxe\MnpDxe\DEBUG\MnpDxe.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES)
+Loading driver at 0x00008CB4000 EntryPoint=0x00072B01040 MnpDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 8E87010
+ProtectUefiImageCommon - 0x8E8A328
+  - 0x0000000008CB4000 - 0x0000000000016000
+PROGRESS CODE: V03040002 I0
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 72B130E4
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D 72B130FC
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 72B13108
+PROGRESS CODE: V03040003 I0
+Loading driver 529D3F93-E8E9-4E73-B1E1-BDF6A9D50113
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 8E87C28
+LoadLibraryEx (
+  c:\users\kartikay\desktop\programming\dell\chainkulikimainkuli\edk2\Build\EmulatorIA32\DEBUG_VS2019\IA32\NetworkPkg\ArpDxe\ArpDxe\DEBUG\ArpDxe.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES)
+Loading driver at 0x00008CD4000 EntryPoint=0x00072701040 ArpDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 8E87790
+ProtectUefiImageCommon - 0x8E87C28
+  - 0x0000000008CD4000 - 0x000000000000D000
+PROGRESS CODE: V03040002 I0
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 7270A0D4
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D 7270A0F8
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 7270A0EC
+PROGRESS CODE: V03040003 I0
+Loading driver 94734718-0BBC-47FB-96A5-EE7A5AE6A2AD
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 8E871A8
+LoadLibraryEx (
+  c:\users\kartikay\desktop\programming\dell\chainkulikimainkuli\edk2\Build\EmulatorIA32\DEBUG_VS2019\IA32\NetworkPkg\Dhcp4Dxe\Dhcp4Dxe\DEBUG\Dhcp4Dxe.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES)
+Loading driver at 0x00008C8F000 EntryPoint=0x000726E1040 Dhcp4Dxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 8E87510
+ProtectUefiImageCommon - 0x8E871A8
+  - 0x0000000008C8F000 - 0x0000000000012000
+PROGRESS CODE: V03040002 I0
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 726EF134
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D 726EF160
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 726EF154
+PROGRESS CODE: V03040003 I0
+Loading driver 9FB1A1F3-3B71-4324-B39A-745CBB015FFF
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 8E86BA8
+LoadLibraryEx (
+  c:\users\kartikay\desktop\programming\dell\chainkulikimainkuli\edk2\Build\EmulatorIA32\DEBUG_VS2019\IA32\NetworkPkg\Ip4Dxe\Ip4Dxe\DEBUG\Ip4Dxe.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES)
+Loading driver at 0x00008C4C000 EntryPoint=0x000726B1040 Ip4Dxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 8E86E90
+ProtectUefiImageCommon - 0x8E86BA8
+  - 0x0000000008C4C000 - 0x0000000000021000
+PROGRESS CODE: V03040002 I0
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 726CE654
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D 726CE68C
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 726CE698
+PROGRESS CODE: V03040003 I0
+Loading driver 6D6963AB-906D-4A65-A7CA-BD40E5D6AF2B
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 8E861A8
+LoadLibraryEx (
+  c:\users\kartikay\desktop\programming\dell\chainkulikimainkuli\edk2\Build\EmulatorIA32\DEBUG_VS2019\IA32\NetworkPkg\Udp4Dxe\Udp4Dxe\DEBUG\Udp4Dxe.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES)
+Loading driver at 0x00008CA1000 EntryPoint=0x00072691040 Udp4Dxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 8E86510
+ProtectUefiImageCommon - 0x8E861A8
+  - 0x0000000008CA1000 - 0x0000000000013000
+PROGRESS CODE: V03040002 I0
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 726A00F4
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D 726A0120
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 726A0114
+PROGRESS CODE: V03040003 I0
+Loading driver DC3641B8-2FA8-4ED3-BC1F-F9962A03454B
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 8E85BA8
+LoadLibraryEx (
+  c:\users\kartikay\desktop\programming\dell\chainkulikimainkuli\edk2\Build\EmulatorIA32\DEBUG_VS2019\IA32\NetworkPkg\Mtftp4Dxe\Mtftp4Dxe\DEBUG\Mtftp4Dxe.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES)
+Loading driver at 0x00008C39000 EntryPoint=0x00072671040 Mtftp4Dxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 8E85E90
+ProtectUefiImageCommon - 0x8E85BA8
+  - 0x0000000008C39000 - 0x0000000000013000
+PROGRESS CODE: V03040002 I0
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 726800F4
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D 72680120
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 72680114
+PROGRESS CODE: V03040003 I0
+Loading driver 1A7E4468-2F55-4A56-903C-01265EB7622B
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 8E85128
+LoadLibraryEx (
+  c:\users\kartikay\desktop\programming\dell\chainkulikimainkuli\edk2\Build\EmulatorIA32\DEBUG_VS2019\IA32\NetworkPkg\TcpDxe\TcpDxe\DEBUG\TcpDxe.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES)
+Loading driver at 0x00008C19000 EntryPoint=0x00072651040 TcpDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 8E85710
+ProtectUefiImageCommon - 0x8E85128
+  - 0x0000000008C19000 - 0x0000000000020000
+PROGRESS CODE: V03040002 I0
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 7266D1DC
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D 7266D234
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 7266D240
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 7266D134
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D 7266D234
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 7266D240
+PROGRESS CODE: V03040003 I0
+Loading driver B95E9FDA-26DE-48D2-8807-1F9107AC5E3A
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 8E840A8
+LoadLibraryEx (
+  c:\users\kartikay\desktop\programming\dell\chainkulikimainkuli\edk2\Build\EmulatorIA32\DEBUG_VS2019\IA32\NetworkPkg\UefiPxeBcDxe\UefiPxeBcDxe\DEBUG\UefiPxeBcDxe.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES)
+Loading driver at 0x00008BFC000 EntryPoint=0x00072631040 UefiPxeBcDxe.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 8E84B90
+ProtectUefiImageCommon - 0x8E840A8
+  - 0x0000000008BFC000 - 0x000000000001D000
+PROGRESS CODE: V03040002 I0
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 7264A2BC
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D 7264A334
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 7264A328
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 7264A2A4
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D 7264A334
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 7264A328
+PROGRESS CODE: V03040003 I0
+Loading driver 961578FE-B6B7-44C3-AF35-6BC705CD2B1F
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 8E84428
+LoadLibraryEx (
+  c:\users\kartikay\desktop\programming\dell\chainkulikimainkuli\edk2\Build\EmulatorIA32\DEBUG_VS2019\IA32\FatPkg\EnhancedFatDxe\Fat\DEBUG\Fat.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES)
+Loading driver at 0x00008BE9000 EntryPoint=0x00072611040 Fat.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 8E84710
+ProtectUefiImageCommon - 0x8E84428
+  - 0x0000000008BE9000 - 0x0000000000013000
+PROGRESS CODE: V03040002 I0
+InstallProtocolInterface: 18A031AB-B443-4D1A-A5C0-0C09261E9F71 72620124
+InstallProtocolInterface: 107A772C-D5E1-11D4-9A46-0090273FC14D 72620148
+InstallProtocolInterface: 6A7A5CFF-E8D9-4F70-BADA-75AB3025CE14 7262013C
+PROGRESS CODE: V03040003 I0
+Loading driver FE3542FE-C1D3-4EF8-657C-8048606FF671
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B 8DE50A8
+LoadLibraryEx (
+  c:\users\kartikay\desktop\programming\dell\chainkulikimainkuli\edk2\Build\EmulatorIA32\DEBUG_VS2019\IA32\MdeModulePkg\Universal\DriverSampleDxe\DriverSampleDxe\DEBUG\DriverSample.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES)
+Loading driver at 0x00008B5A000 EntryPoint=0x000725E1040 DriverSample.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF 8DE5210
+ProtectUefiImageCommon - 0x8DE50A8
+  - 0x0000000008B5A000 - 0x0000000000023000
+PROGRESS CODE: V03040002 I0
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B 725FEF9C
+InstallProtocolInterface: 330D4706-F2A0-4E4F-A369-B66FA8D54385 8DE543C
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B 725FEFCC
+InstallProtocolInterface: 330D4706-F2A0-4E4F-A369-B66FA8D54385 8DE543C
+PROGRESS CODE: V03040003 I0
+PROGRESS CODE: V03041001 I0
+[Bds] Entry...
+[BdsDxe] Locate Variable Policy protocol - Success
+Variable Driver Auto Update Lang, Lang:eng, PlatformLang:en Status: Success
+PROGRESS CODE: V03051005 I0
+DXE - Total Runtime Image Count: 0x7
+DXE - Dump Runtime Image Records:
+CapsuleRuntimeDxe.efi: 0x8ED8000 - 0x8EE2000
+  Code Section: 0x8ED9000 - 0x8EDD000
+MonotonicCounterRuntimeDxe.efi: 0x8F03000 - 0x8F0B000
+  Code Section: 0x8F04000 - 0x8F07000
+StatusCodeHandlerRuntimeDxe.efi: 0x908B000 - 0x9095000
+  Code Section: 0x908C000 - 0x9090000
+VariableRuntimeDxe.efi: 0x983F000 - 0x9857000
+  Code Section: 0x9840000 - 0x9850000
+RuntimeDxe.efi: 0x9D48000 - 0x9D51000
+  Code Section: 0x9D49000 - 0x9D4C000
+FwBlockService.efi: 0x9D51000 - 0x9D5B000
+  Code Section: 0x9D52000 - 0x9D56000
+ReportStatusCodeRouterRuntimeDxe.efi: 0x9D97000 - 0x9DA1000
+  Code Section: 0x9D98000 - 0x9D9C000
+[Variable]END_OF_DXE is signaled
+Initialize variable error flag (FF)
+InstallProtocolInterface: 9842073D-95D9-9F49-BD3F-2E29525125DF 8DE1190
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B 8DE1690
+InstallProtocolInterface: 453368F6-7C85-434A-A98A-72D1B7FFA926 8DE189C
+InstallProtocolInterface: 9042A9DE-23DC-4A38-96FB-7ADED080516A 8DE001C
+InstallProtocolInterface: 387477C1-69C7-11D2-8E39-00A0C969723B 8DE002C
+InstallProtocolInterface: 31878C87-0B75-11D5-9A4F-0090273FC14D 8DE0038
+InstallProtocolInterface: DD9E7534-7762-4698-8C14-F58517A625AA 8DE0490
+GraphicsConsole video resolution 800 x 600
+Graphics - Mode 0, Column = 80, Row = 25
+Graphics - Mode 1, Column = 0, Row = 0
+Graphics - Mode 2, Column = 100, Row = 31
+Graphics Console Started, Mode: -1
+InstallProtocolInterface: 387477C2-69C7-11D2-8E39-00A0C969723B 8DE0C1C
+InstallProtocolInterface: D3B36F2C-D551-11D4-9A46-0090273FC14D 0
+InstallProtocolInterface: 9042A9DE-23DC-4A38-96FB-7ADED080516A 7324C318
+InstallProtocolInterface: 982C298B-F4FA-41CB-B838-77AA688FB839 7324C2FC
+InstallProtocolInterface: D3B36F2B-D551-11D4-9A46-0090273FC14D 0
+Enter memory test.
+Perform memory test (ESC to skip).
+134217728 bytes of system memory tested OK
+[Bds]RegisterKeyNotify: 0000/000D 80000000/00 Success
+[Bds]RegisterKeyNotify: 000C/0000 80000000/00 Success
+[Bds]RegisterKeyNotify: 0011/0000 80000000/00 Success
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B E3FF990
+InstallProtocolInterface: 453368F6-7C85-434A-A98A-72D1B7FFA926 E3FF79C
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B E3FEE90
+InstallProtocolInterface: 453368F6-7C85-434A-A98A-72D1B7FFA926 E3FEB1C
+InstallProtocolInterface: 09576E91-6D3F-11D2-8E39-00A0C969723B E3FE790
+InstallProtocolInterface: 453368F6-7C85-434A-A98A-72D1B7FFA926 E3FEA1C
+InstallProtocolInterface: 964E5B22-6459-11D2-8E39-00A0C969723B E3FE618
+InstallProtocolInterface: 964E5B21-6459-11D2-8E39-00A0C969723B E3FDC20
+InstallProtocolInterface: A77B2472-E282-4E9F-A245-C2C0E27BBCC1 E3FDC40
+InstallProtocolInterface: CE345171-BA0B-11D2-8E4F-00A0C969723B E3FD118
+InstallProtocolInterface: 151C8EAE-7F2C-472C-9E54-9828194F6A88 E3FD128
+ BlockSize : 512 
+ LastBlock : FFFFFFFFFFFFFFFF 
+[Bds]OsIndication: 0000000000000000
+[Bds]=============Begin Load Options Dumping ...=============
+  Driver Options:
+  SysPrep Options:
+  Boot Options:
+    Boot0005: UEFI Shell 		 0x0001
+    Boot0001: UEFI BootManagerMenuApp 		 0x0100
+    Boot0002: UEFI Misc Device 		 0x0001
+    Boot0003: UEFI Non-Block Boot Device 		 0x0001
+    Boot0004: UEFI BootManagerMenuApp 		 0x0001
+    Boot0000: UEFI Enter Setup 		 0x0109
+  PlatformRecovery Options:
+    PlatformRecovery0000: Default PlatformRecovery 		 0x0001
+[Bds]=============End Load Options Dumping=============
+[Bds]BdsWait ...Zzzzzzzzzzzz...
+[Bds]BdsWait(10)..Zzzz...
+[Bds]BdsWait(9)..Zzzz...
+[Bds]BdsWait(8)..Zzzz...
+[Bds]BdsWait(7)..Zzzz...
+[Bds]BdsWait(6)..Zzzz...
+[Bds]BdsWait(5)..Zzzz...
+[Bds]BdsWait(4)..Zzzz...
+[Bds]BdsWait(3)..Zzzz...
+[Bds]BdsWait(2)..Zzzz...
+[Bds]BdsWait(1)..Zzzz...
+[Bds]Exit the waiting!
+PROGRESS CODE: V03051007 I0
+[Bds]Stop Hotkey Service!
+[Bds]UnregisterKeyNotify: 0000/000D Success
+[Bds]UnregisterKeyNotify: 000C/0000 Success
+[Bds]UnregisterKeyNotify: 0011/0000 Success
+PROGRESS CODE: V03051001 I0
+[Bds]Booting UEFI Shell
+[Bds] Expand Fv(6D99E806-3D38-42C2-A095-5F4300BFD7DC)/FvFile(7C04A583-9E3E-4F1C-AD65-E05268D0B4D1)/Shell -> Fv(6D99E806-3D38-42C2-A095-5F4300BFD7DC)/FvFile(7C04A583-9E3E-4F1C-AD65-E05268D0B4D1)/Shell
+PROGRESS CODE: V03058000 I0
+InstallProtocolInterface: 5B1B31A1-9562-11D2-8E3F-00A0C969723B E3F31A8
+LoadLibraryEx (
+  c:\users\kartikay\desktop\programming\dell\chainkulikimainkuli\edk2\Build\EmulatorIA32\DEBUG_VS2019\IA32\ShellPkg\Application\Shell\Shell\DEBUG\Shell.DLL,
+  NULL, DONT_RESOLVE_DLL_REFERENCES)
+Loading driver at 0x0000E1A9000 EntryPoint=0x00071D71080 Shell.efi
+InstallProtocolInterface: BC62157E-3E33-4FEC-9920-2D3B36D750DF E3FF390
+ProtectUefiImageCommon - 0xE3F31A8
+  - 0x000000000E1A9000 - 0x0000000000113000
+PROGRESS CODE: V03058001 I0
+InstallProtocolInterface: 387477C2-69C7-11D2-8E39-00A0C969723B E3EF294
+InstallProtocolInterface: 752F3136-4E16-4FDC-A22A-E5F46812F4CA E3EAE10
+InstallProtocolInterface: 6302D008-7F9B-4F30-87AC-60C9FEF5DA4E 71E1AA30

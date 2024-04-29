@@ -332,6 +332,9 @@
   EmulatorPkg/FlashMapPei/FlashMapPei.inf
   EmulatorPkg/ThunkPpiToProtocolPei/ThunkPpiToProtocolPei.inf
   MdeModulePkg/Core/DxeIplPeim/DxeIpl.inf
+  EmulatorPkg/AdditionPeim/AdditionPeim.inf
+  EmulatorPkg/UseAdditionPeim/UseAdditionPeim.inf
+  EmulatorPkg/HobPeim/HobPeim.inf
 
   ##
   #  DXE Phase modules
@@ -368,9 +371,7 @@
       NULL|SecurityPkg/Library/DxeImageVerificationLib/DxeImageVerificationLib.inf
 !endif
   }
-  EmulatorPkg/AdditionPeim/AdditionPeim.inf
-  EmulatorPkg/UseAdditionPeim/UseAdditionPeim.inf
-  EmulatorPkg/HobPeim/HobPeim.inf
+  
   EmulatorPkg/HobDxe/HobDxe.inf
   MdeModulePkg/Universal/EbcDxe/EbcDxe.inf
   MdeModulePkg/Universal/MemoryTest/NullMemoryTestDxe/NullMemoryTestDxe.inf
