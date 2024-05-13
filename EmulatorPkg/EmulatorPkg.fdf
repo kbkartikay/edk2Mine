@@ -184,7 +184,8 @@ INF  EmulatorPkg/EmuGopDxe/EmuGopDxe.inf
 INF  EmulatorPkg/EmuSimpleFileSystemDxe/EmuSimpleFileSystemDxe.inf
 INF  EmulatorPkg/EmuBlockIoDxe/EmuBlockIoDxe.inf
 INF  EmulatorPkg/EmuSnpDxe/EmuSnpDxe.inf
-
+INF  EmulatorPkg/InstallDxeProtocol/InstallDxeProtocol.inf
+INF  EmulatorPkg/InstallDxeProtocolUse/InstallDxeProtocolUse.inf
 INF  MdeModulePkg/Universal/HiiDatabaseDxe/HiiDatabaseDxe.inf
 INF  MdeModulePkg/Universal/DisplayEngineDxe/DisplayEngineDxe.inf
 INF  MdeModulePkg/Universal/SetupBrowserDxe/SetupBrowserDxe.inf

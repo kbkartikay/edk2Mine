@@ -335,6 +335,7 @@
   EmulatorPkg/AdditionPeim/AdditionPeim.inf
   EmulatorPkg/UseAdditionPeim/UseAdditionPeim.inf
   EmulatorPkg/HobPeim/HobPeim.inf
+  
 
   ##
   #  DXE Phase modules
@@ -364,7 +365,9 @@
   EmulatorPkg/ResetRuntimeDxe/Reset.inf
   MdeModulePkg/Core/RuntimeDxe/RuntimeDxe.inf
   EmulatorPkg/FvbServicesRuntimeDxe/FvbServicesRuntimeDxe.inf
-
+  EmulatorPkg/InstallDxeProtocol/InstallDxeProtocol.inf
+  EmulatorPkg/InstallDxeProtocolUse/InstallDxeProtocolUse.inf
+  
   MdeModulePkg/Universal/SecurityStubDxe/SecurityStubDxe.inf {
     <LibraryClasses>
 !if $(SECURE_BOOT_ENABLE) == TRUE

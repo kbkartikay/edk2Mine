@@ -190,6 +190,7 @@
   #  Include/Guid/MdeModuleHii.h
   gEdkiiIfrBitVarstoreGuid  = {0x82DDD68B, 0x9163, 0x4187, {0x9B, 0x27, 0x20, 0xA8, 0xFD, 0x60,0xA7, 0x1D}}
 
+   gCustomProtocolGuid  = {0x0ca4886e, 0x2a4d, 0x4369, {0x97, 0x23, 0x27, 0x8c, 0xf4, 0xf8, 0x3f, 0x9f}}
   ## Guid for Framework vfr GUIDed opcodes.
   #  Include/Guid/MdeModuleHii.h
   gEfiIfrFrameworkGuid  = { 0x31ca5d1a, 0xd511, 0x4931, { 0xb7, 0x82, 0xae, 0x6b, 0x2b, 0x17, 0x8c, 0xd7 }}
@@ -546,6 +547,7 @@
   #  This protocol is deprecated. Native EDKII module should NOT use this protocol to load/unload image.
   #  If developer need implement such functionality, they should use BasePeCoffLib.
   gEfiLoadPeImageProtocolGuid    = { 0x5CB5C776, 0x60D5, 0x45EE, { 0x88, 0x3C, 0x45, 0x27, 0x08, 0xCD, 0x74, 0x3F }}
+ 
 
   ## Print protocols define basic print functions to print the format unicode and ascii string.
   # Include/Protocol/Print2.h

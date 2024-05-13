@@ -1,0 +1,32 @@
+[Defines]
+  INF_VERSION = 0x00010005
+  BASE_NAME = InstallDxeProtocolUse
+  FILE_GUID = C024AE1C-93A9-4822-AE52-1B69D3E17FA2
+  MODULE_TYPE = DXE_DRIVER
+  VERSION_STRING = 1.0
+  ENTRY_POINT = Driver2EntryPoint
+  
+
+[Sources]
+  InstallDxeProtocolUse.c
+
+[Packages]
+  MdePkg/MdePkg.dec
+  EmulatorPkg/EmulatorPkg.dec
+
+
+[LibraryClasses]
+  UefiLib
+  DebugLib
+  HobLib
+  UefiBootServicesTableLib
+  MemoryAllocationLib
+  UefiDriverEntryPoint
+  
+
+[Guids]
+  gCustomProtocolGuid
+
+
+[Depex]
+    TRUE
