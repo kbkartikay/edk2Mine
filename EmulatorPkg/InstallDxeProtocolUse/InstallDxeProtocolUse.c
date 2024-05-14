@@ -22,7 +22,10 @@ Driver2EntryPoint(
 {
   EFI_STATUS Status;
   CUSTOM_PROTOCOL *CustomProtocolInstance;
-
+  int d =7777;
+  DEBUG((DEBUG_INFO,"%d\n",d));
+  Print(L"Devansh\n");
+  //printf("kartikay\n");
   // Locate the protocol
   Status = gBS->LocateProtocol(&gCustomProtocolGuid, NULL, (void **)&CustomProtocolInstance);
   if (EFI_ERROR(Status)) {

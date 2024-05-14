@@ -367,6 +367,7 @@
   EmulatorPkg/FvbServicesRuntimeDxe/FvbServicesRuntimeDxe.inf
   EmulatorPkg/InstallDxeProtocol/InstallDxeProtocol.inf
   EmulatorPkg/InstallDxeProtocolUse/InstallDxeProtocolUse.inf
+  EmulatorPkg/MyDriver/MyDriver.inf
   
   MdeModulePkg/Universal/SecurityStubDxe/SecurityStubDxe.inf {
     <LibraryClasses>

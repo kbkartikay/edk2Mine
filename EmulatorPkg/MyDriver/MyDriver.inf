@@ -1,0 +1,26 @@
+[Defines]
+  INF_VERSION                    = 0x00010005
+  BASE_NAME                      = MyDriver
+  FILE_GUID                      = AD6B1D68-23D1-47A8-B55E-A0DA07FB29F1
+  MODULE_TYPE                    = DXE_DRIVER
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = MyDriverEntryPoint
+  DRIVER_BINDING_PROTOCOL        = TRUE
+
+
+[Sources]
+  MyDriver.c
+
+[Packages]
+  MdePkg/MdePkg.dec
+  EmulatorPkg/EmulatorPkg.dec  
+[LibraryClasses]
+  UefiDriverEntryPoint
+  UefiLib
+  DebugLib
+
+[Protocols]
+  gEfiDriverBindingProtocolGuid
+
+[Depex]
+    TRUE
